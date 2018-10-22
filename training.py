@@ -8,8 +8,8 @@ from numpy import matrix
 
 network_type = input("Enter MLO or CC")
 
-train_x1_lcc = cv2.imread("C:/Users/archit.kushwaha.AGILiAD\Documents\Training_data\L-CC/_00008_LEFT_CC.png",0)
-train_x1_rcc = cv2.imread("C:/Users/archit.kushwaha.AGILiAD\Documents\Training_data\R-CC/_00008_RIGHT_CC.png",0)
+train_x1_lcc = cv2.imread("small_dataset_train/_00008_LEFT_CC.png",0)
+train_x1_rcc = cv2.imread("small_dataset_train/_00008_RIGHT_CC.png",0)
 train_y = matrix( [[0,0,1]] )
 if network_type == "CC":
     train_x1_lcc = cv2.resize(train_x1_lcc, (2000, 2600))
@@ -88,4 +88,4 @@ with tf.Session() as sess:
             print("Optimization Finished!")
 
         summary_writer.close()
-    savePath = saver.save(sess, 'E:/training_graph/agp_birads.ckpt')
+    #savePath = saver.save(sess, 'E:/training_graph/agp_birads.ckpt')
