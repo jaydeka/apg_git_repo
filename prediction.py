@@ -2,7 +2,7 @@ import argparse
 import tensorflow as tf
 
 import model as models
-import utils
+#import utils
 
 
 def inference(parameters, verbose=True):

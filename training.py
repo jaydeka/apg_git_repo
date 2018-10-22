@@ -1,6 +1,6 @@
 import tensorflow as tf
 import model
-import utils
+# import utils
 import cv2
 import numpy as np
 from numpy import matrix
