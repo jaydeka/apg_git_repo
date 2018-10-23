@@ -6,7 +6,7 @@ import numpy as np
 from numpy import matrix
 
 
-#network_type = input("Enter MLO or CC")
+network_type = "CC"
 
 train_x1_lcc = cv2.imread("small_dataset_train/_00008_LEFT_CC.png",0)
 train_x1_rcc = cv2.imread("small_dataset_train/_00008_RIGHT_CC.png",0)
