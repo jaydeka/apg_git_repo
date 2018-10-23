@@ -66,7 +66,7 @@ with tf.Session() as sess:
     test_loss = []
     train_accuracy = []
     test_accuracy = []
-    summary_writer = tf.summary.FileWriter("small_dataset_train/training_graph/output", sess.graph)
+    summary_writer = tf.summary.FileWriter("apg_git_repo/training_graph/output", sess.graph)
     if network_type == "CC":
         for i in range(training_iters):
             opt = sess.run(optimizer, feed_dict={x1_cc:train_x1_lcc,x2_cc:train_x1_rcc,y:train_y})
