@@ -22,7 +22,7 @@ else:
     train_x1_lmlo = np.array(train_x1_lmlo).reshape(1, 2000, 2600,1)
     train_x1_rmlo = np.array(train_x1_rmlo).reshape(1, 2000, 2600,1)
 #print(resized_image.shape, type(resized_image))
-training_iters = 10
+training_iters = 200
 learning_rate = 0.001
 batch_size = 1
 
