@@ -60,7 +60,10 @@ accuracy = tf.reduce_mean(tf.cast(correct_prediction, tf.float32))
 
 init = tf.global_variables_initializer()
 saver = tf.train.Saver(max_to_keep=1)
-with tf.Session() as sess:
+
+config = tf.ConfigProto(device_count = {'GPU': 0})
+
+with tf.Session(config=config) as sess:
     sess.run(init)
     train_loss = []
     test_loss = []
