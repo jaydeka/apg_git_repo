@@ -1,0 +1,244 @@
+[
+    {
+        "Id": "27a1c15f064c70b858d8a85037854a4fe34f9c33ec123169fe900e90f1989a49",
+        "Created": "2018-10-26T08:10:44.329174989Z",
+        "Path": "sh",
+        "Args": [
+            "-c",
+            "python apg_git_repo/training.py"
+        ],
+        "State": {
+            "Status": "exited",
+            "Running": false,
+            "Paused": false,
+            "Restarting": false,
+            "OOMKilled": false,
+            "Dead": false,
+            "Pid": 0,
+            "ExitCode": 0,
+            "Error": "",
+            "StartedAt": "2018-10-26T08:12:09.584362501Z",
+            "FinishedAt": "2018-10-26T08:12:54.582951766Z"
+        },
+        "Image": "sha256:1e7c3085d30ab0d9152a33ff03e01a6bfa99573089cb517f1af3f2a30b5fdc7f",
+        "ResolvConfPath": "/var/lib/docker/containers/27a1c15f064c70b858d8a85037854a4fe34f9c33ec123169fe900e90f1989a49/resolv.conf",
+        "HostnamePath": "/var/lib/docker/containers/27a1c15f064c70b858d8a85037854a4fe34f9c33ec123169fe900e90f1989a49/hostname",
+        "HostsPath": "/var/lib/docker/containers/27a1c15f064c70b858d8a85037854a4fe34f9c33ec123169fe900e90f1989a49/hosts",
+        "LogPath": "/var/lib/docker/containers/27a1c15f064c70b858d8a85037854a4fe34f9c33ec123169fe900e90f1989a49/27a1c15f064c70b858d8a85037854a4fe34f9c33ec123169fe900e90f1989a49-json.log",
+        "Name": "/ecs-tensorflow-ai-taskdefinition-326-testcontainer-cea086f080a193e84b00",
+        "RestartCount": 0,
+        "Driver": "overlay2",
+        "Platform": "linux",
+        "MountLabel": "",
+        "ProcessLabel": "",
+        "AppArmorProfile": "",
+        "ExecIDs": null,
+        "HostConfig": {
+            "Binds": [
+                "/test_job2:/test_job2"
+            ],
+            "ContainerIDFile": "",
+            "LogConfig": {
+                "Type": "json-file",
+                "Config": {}
+            },
+            "NetworkMode": "default",
+            "PortBindings": {
+                "80/tcp": [
+                    {
+                        "HostIp": "",
+                        "HostPort": "80"
+                    }
+                ]
+            },
+            "RestartPolicy": {
+                "Name": "",
+                "MaximumRetryCount": 0
+            },
+            "AutoRemove": false,
+            "VolumeDriver": "",
+            "VolumesFrom": null,
+            "CapAdd": null,
+            "CapDrop": null,
+            "Dns": null,
+            "DnsOptions": null,
+            "DnsSearch": null,
+            "ExtraHosts": null,
+            "GroupAdd": null,
+            "IpcMode": "shareable",
+            "Cgroup": "",
+            "Links": null,
+            "OomScoreAdj": 0,
+            "PidMode": "",
+            "Privileged": false,
+            "PublishAllPorts": false,
+            "ReadonlyRootfs": false,
+            "SecurityOpt": null,
+            "UTSMode": "",
+            "UsernsMode": "",
+            "ShmSize": 67108864,
+            "Runtime": "nvidia",
+            "ConsoleSize": [
+                0,
+                0
+            ],
+            "Isolation": "",
+            "CpuShares": 2,
+            "Memory": 0,
+            "NanoCpus": 0,
+            "CgroupParent": "/ecs/2e106847-253c-4199-870a-4facc88affe8",
+            "BlkioWeight": 0,
+            "BlkioWeightDevice": null,
+            "BlkioDeviceReadBps": null,
+            "BlkioDeviceWriteBps": null,
+            "BlkioDeviceReadIOps": null,
+            "BlkioDeviceWriteIOps": null,
+            "CpuPeriod": 0,
+            "CpuQuota": 0,
+            "CpuRealtimePeriod": 0,
+            "CpuRealtimeRuntime": 0,
+            "CpusetCpus": "",
+            "CpusetMems": "",
+            "Devices": null,
+            "DeviceCgroupRules": null,
+            "DiskQuota": 0,
+            "KernelMemory": 0,
+            "MemoryReservation": 68719476736,
+            "MemorySwap": 0,
+            "MemorySwappiness": null,
+            "OomKillDisable": false,
+            "PidsLimit": 0,
+            "Ulimits": [
+                {
+                    "Name": "nofile",
+                    "Hard": 4096,
+                    "Soft": 1024
+                }
+            ],
+            "CpuCount": 0,
+            "CpuPercent": 0,
+            "IOMaximumIOps": 0,
+            "IOMaximumBandwidth": 0,
+            "MaskedPaths": [
+                "/proc/acpi",
+                "/proc/kcore",
+                "/proc/keys",
+                "/proc/latency_stats",
+                "/proc/timer_list",
+                "/proc/timer_stats",
+                "/proc/sched_debug",
+                "/proc/scsi",
+                "/sys/firmware"
+            ],
+            "ReadonlyPaths": [
+                "/proc/asound",
+                "/proc/bus",
+                "/proc/fs",
+                "/proc/irq",
+                "/proc/sys",
+                "/proc/sysrq-trigger"
+            ]
+        },
+        "GraphDriver": {
+            "Data": {
+                "LowerDir": "/var/lib/docker/overlay2/9f6421bed27d959b67c3a41f46edf57e2066d8d75c0240cc745b650f8eee5843-init/diff:/var/lib/docker/overlay2/2c9e8107c50f19583af778f7c5ff1e0980c79325774eb68a1f9d9ed1192954da/diff:/var/lib/docker/overlay2/2595b7f585158fc1fff3a10701e2416bc262034577b94d6ed23183e2cf57e83d/diff:/var/lib/docker/overlay2/045454f32c6ae419a41c48443d0d5ecf4b8b0b9134e02e9d36aa5f3f1c44f577/diff:/var/lib/docker/overlay2/dfb379b45745938887ab7348aa860bdff5dc3e403205b3d38843ff3d46c13d8d/diff:/var/lib/docker/overlay2/e470a518732d7ac41458673168a00a750247d293699d4c199a699ac1141b445e/diff:/var/lib/docker/overlay2/28e42911085c4a873c2edf996597aaee75e7515a7155b5a98622631ce6019dc9/diff:/var/lib/docker/overlay2/d00fb12e3eaafd0f9a10771f66210a7ff04535ad31740927239b61079eb8d5fc/diff:/var/lib/docker/overlay2/22815cb62393c2ae50bb871344994775e4040ebdd66137f37d596c154cbb708b/diff:/var/lib/docker/overlay2/e43b8405d26da2c19d44d6f3accbeadd704f6bbdf9267271bc97eab2c23da4e8/diff:/var/lib/docker/overlay2/0e72b2916870b815d53e62e2d0b036831038facbef75afc1c29be48d0216bc8b/diff:/var/lib/docker/overlay2/826b7003f9cefceec1bd39bfad2574a3e3ce148324ee8062027514cf99be5214/diff:/var/lib/docker/overlay2/360eb1b7b963704b4c2ffdd9108fd2ce361f3cc43ef31d1c2b40989b88d1d599/diff:/var/lib/docker/overlay2/efe650b82d558f8bc38ce7f98c2e1b7ad5cc69bf2a18d85a6c5e180d77a2ed2f/diff:/var/lib/docker/overlay2/8cec88dfb656f0bf815f825d0acb1895690e718e656a5fa8e101d883c09c7d7f/diff:/var/lib/docker/overlay2/8d9bf763d7960473edd06db2a262eed0b905c47f99d6b468127f0db9f3837a26/diff:/var/lib/docker/overlay2/cb206cdb32f3268383bbd7a334b0cbe91959ed6bd07f70f94199ad35e69d90db/diff:/var/lib/docker/overlay2/a5183c60dc63adbeba2fa5afd2a0f6c5d649f87b2c2cfba3c56d8537f3b66191/diff:/var/lib/docker/overlay2/5a3e1dfbfea665acd5d55a5cbd21190bdcad4b3b92a190006d44bd9029cc061e/diff:/var/lib/docker/overlay2/d71165676ee3569be5bb642588ffe17ec847294a15f89e11b36946b2bca77917/diff:/var/lib/docker/overlay2/ab892edc76e309e759c8dbe699f3ec8f86ff071680e70e34d04f205df090943d/diff:/var/lib/docker/overlay2/65e6a6175f7cec96e368bb329069d63de26f095d534d4172f7ee70424e65dd84/diff:/var/lib/docker/overlay2/8dacdcbbe5f4f6492ac3754fa7bc61e2a7e53686e08ed534d7a956020f0993b9/diff",
+                "MergedDir": "/var/lib/docker/overlay2/9f6421bed27d959b67c3a41f46edf57e2066d8d75c0240cc745b650f8eee5843/merged",
+                "UpperDir": "/var/lib/docker/overlay2/9f6421bed27d959b67c3a41f46edf57e2066d8d75c0240cc745b650f8eee5843/diff",
+                "WorkDir": "/var/lib/docker/overlay2/9f6421bed27d959b67c3a41f46edf57e2066d8d75c0240cc745b650f8eee5843/work"
+            },
+            "Name": "overlay2"
+        },
+        "Mounts": [
+            {
+                "Type": "bind",
+                "Source": "/test_job2",
+                "Destination": "/test_job2",
+                "Mode": "",
+                "RW": true,
+                "Propagation": "rprivate"
+            }
+        ],
+        "Config": {
+            "Hostname": "27a1c15f064c",
+            "Domainname": "",
+            "User": "",
+            "AttachStdin": false,
+            "AttachStdout": false,
+            "AttachStderr": false,
+            "ExposedPorts": {
+                "6006/tcp": {},
+                "80/tcp": {},
+                "8888/tcp": {}
+            },
+            "Tty": false,
+            "OpenStdin": false,
+            "StdinOnce": false,
+            "Env": [
+                "AWS_CONTAINER_CREDENTIALS_RELATIVE_URI=/v2/credentials/a272f967-2548-42ba-8667-47765d8c7093",
+                "PATH=/usr/local/nvidia/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+                "CUDA_VERSION=9.0.176",
+                "CUDA_PKG_VERSION=9-0=9.0.176-1",
+                "LD_LIBRARY_PATH=/usr/local/cuda/extras/CUPTI/lib64:/usr/local/nvidia/lib:/usr/local/nvidia/lib64",
+                "NVIDIA_VISIBLE_DEVICES=all",
+                "NVIDIA_DRIVER_CAPABILITIES=compute,utility",
+                "NVIDIA_REQUIRE_CUDA=cuda>=9.0"
+            ],
+            "Cmd": [
+                "sh",
+                "-c",
+                "python apg_git_repo/training.py"
+            ],
+            "Image": "470875175282.dkr.ecr.ap-northeast-1.amazonaws.com/test_container",
+            "Volumes": null,
+            "WorkingDir": "/test_job2",
+            "Entrypoint": null,
+            "OnBuild": null,
+            "Labels": {
+                "com.amazonaws.ecs.cluster": "test_job2_testuser2",
+                "com.amazonaws.ecs.container-name": "test_container",
+                "com.amazonaws.ecs.task-arn": "arn:aws:ecs:ap-northeast-1:470875175282:task/2e106847-253c-4199-870a-4facc88affe8",
+                "com.amazonaws.ecs.task-definition-family": "tensorflow-ai-taskdefinition",
+                "com.amazonaws.ecs.task-definition-version": "326",
+                "com.nvidia.cuda.version": "9.0.176",
+                "com.nvidia.volumes.needed": "nvidia_driver",
+                "maintainer": "Craig Citro <craigcitro@google.com>"
+            }
+        },
+        "NetworkSettings": {
+            "Bridge": "",
+            "SandboxID": "db137be8e4c53580d89b75d11b418220866946e0a827de89569527312b923f6a",
+            "HairpinMode": false,
+            "LinkLocalIPv6Address": "",
+            "LinkLocalIPv6PrefixLen": 0,
+            "Ports": {},
+            "SandboxKey": "/var/run/docker/netns/db137be8e4c5",
+            "SecondaryIPAddresses": null,
+            "SecondaryIPv6Addresses": null,
+            "EndpointID": "",
+            "Gateway": "",
+            "GlobalIPv6Address": "",
+            "GlobalIPv6PrefixLen": 0,
+            "IPAddress": "",
+            "IPPrefixLen": 0,
+            "IPv6Gateway": "",
+            "MacAddress": "",
+            "Networks": {
+                "bridge": {
+                    "IPAMConfig": null,
+                    "Links": null,
+                    "Aliases": null,
+                    "NetworkID": "259b87d9f9bf5509ac63cdd5e54a830b69d6ff438a3c8cc3e5287c7900ac7670",
+                    "EndpointID": "",
+                    "Gateway": "",
+                    "IPAddress": "",
+                    "IPPrefixLen": 0,
+                    "IPv6Gateway": "",
+                    "GlobalIPv6Address": "",
+                    "GlobalIPv6PrefixLen": 0,
+                    "MacAddress": "",
+                    "DriverOpts": null
+                }
+            }
+        }
+    }
+]
